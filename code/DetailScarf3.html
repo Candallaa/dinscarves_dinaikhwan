@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=PT+Sans&family=PT+Serif&display=swap" rel="stylesheet">        <link rel="stylesheet" href="Header.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+      
+    <title>Document</title>
+    <style>
+        html {
+          scroll-behavior: smooth;
+          background-color: #D7CDC1;
+        }
+        
+        #section1 {
+          height: 600px;
+          background-color: #D7CDC1;
+        }
+        
+        #section2 {
+          height: 300px;
+          background-color: #D7CDC1;
+          padding: 15px;
+        }
+        #section3 {
+          height: 500px;
+          background-color: #D7CDC1;
+        }
+        h2{
+            font-family:'PT Serif', serif;
+            text-align: center;
+        }
+        .container{
+            width: 1280px;
+            margin: 30px auto 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding-bottom: 10px;
+        }
+        .container .box{
+            position: relative;
+            width: 300px;
+            height: 380px;
+            background: rgba(224, 223, 221, 0);
+            margin-left: 15px;
+            margin-bottom: 80px;
+            box-sizing: border-box;
+            display: inline-block;
+            padding: 5px;
+        }
+        .container .box .imgBox{
+            position: relative;
+            overflow: hidden;
+        }
+        .container .box .imgBox img{
+            max-width: 100%;
+            transition: transform 2s;
+        }
+
+        table{
+            padding: 6px;
+            border: 1px solid rgb(107, 80, 6);
+            margin-bottom: 7px;
+            width: 100%;
+
+        }
+        tr{
+            border: 1px solid rgb(107, 80, 6);
+        }
+       .container2{
+            width: 1280px;
+            margin: 30px auto 0;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+       }
+       #col1{
+        background-color: #D7CDC1;
+        width: 20%;
+        height: 560px;
+       }
+       #col2{
+        background-color: #D7CDC1;
+        width: 45%;
+        height: 560px;
+       }
+       #col3{
+        background-color: #D7CDC1;
+        width: 35%;
+        height: 560px;
+       }
+       #col1 .row img{
+        margin-left: 50px;
+        margin-top: 20px;
+       }
+       #col2 img{
+        margin-top: 20px;
+        margin-left: 40px;
+       }
+       #col3 .isi{
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 20px;
+       }
+       .button-cart{
+        background-color: #000000;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 420px;
+       }
+       .button-buy{
+        background-color: #ffffff00;
+        border: 0.5px solid black;
+        border-radius: 6px;
+        color: rgb(0, 0, 0);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 420px;
+       }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>  
+            <a href="Content4.html">
+                <img src="photo/Logo.png" style="width: 16%; margin-left: 40%; margin-top: 0%; float: left; position: relative;">
+            </a>
+            <a href="profil.html">
+            <img src="photo/user.png" style="width: 18px; margin-left: 90%; margin-top: -3%; float: left; position: relative;">
+            </a>
+            <img src="photo/bag.png" style="width: 18px; margin-left: 85%; margin-top: -3%; float: left; position: relative;">
+            <img src="photo/search.png" style="width: 16px; margin-left: 80%; margin-top: -3%; float: left; position: relative;">
+        </li> 
+    </ul>
+    <hr style="width: 100%;"><br><hr>
+    <nav>
+        <ul>
+            <li><a href="Content3.html"> NEW ARRIVAL</a></li>
+            <li><a href="Content.html"> SCARVES</a></li>
+            <li><a href="Content2.html"> SALE</a></li>
+            <li><a href="Contact.html"> CONTACT</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div class="main" id="section1">
+        <div class="container2">
+            <div class="col" id="col1">
+                <div class="row">
+                    <img src="photo/62.webp" alt="" style="width: 160px;">
+                </div>
+                <div class="row">
+                    <img src="photo/17.webp" alt="" style="width: 160px;">
+                </div>
+               
+            </div>
+
+            <div class="col" id="col2">
+                <img src="photo/17.webp" alt="" style="width: 500px;">
+            </div>
+
+            <div class="col" id="col3">
+                <div class="isi">
+                    <h4 style="font-size: 25px;">ALOHA RECTANGLE</h4>
+                    <h5 style="font-size: 18px; margin-top: 10px; font-weight: normal;">IDR 450.000,-</h5>
+                    <hr style="border-color: rgba(107, 80, 6, 0.336); margin-top: 10px; margin-bottom: 10px;">
+                    <p style="font-size: 14px;">SIZE</p>
+                    <table style="border: 1px solid black; width: 25%; height: 20px; margin-top: 5px;">
+                        <tr>
+                            <th>All Size</th>
+                        </tr>
+                    </table>
+                    <p style="font-size: 14px;">QUANTITY</p>
+                    <table style="border: 1px solid black; width: 25%; height: 20px; margin-top: 5px;">
+                        <tr>
+                            <td> - </td>
+                       <td style="text-align: center;"> 1 </td>
+                       <td style="text-align: right;"> + </td>
+                        </tr> 
+                    </table>
+                    <br>
+                    <center>
+                        <a href="cart3.html">
+                        <button type="button" class="button-cart">Add to Cart</button>
+                    </a>
+                    </center>
+                    <center>
+                        <a href="Checkout3.html">
+                        <button type="button" class="button-buy">Buy It Now</button>
+                    </a>
+                    </center>
+                    <br>
+                    <p style="margin-bottom: 6px;"><b>Description</b></p>
+                    <p style="letter-spacing: 1px;">
+                        Scarf in silk twill with hand-rolled edges (100% silk).<br>
+                        This essential Hermès accessory complements any outfit. It can be worn many ways - around your neck, as a top, at the waist or as a headscarf!
+                    </p>
+                    <br>
+                    <p style="background-color: white; color: black; padding: 5px;">
+                        FREE STANDART SHIPPING <br>
+                        Estemated in be delivered on 04/11/2022 - 04/12/2022
+                    </p>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <hr style="border-color: rgba(107, 80, 6, 0.336);">
+
+      <div class="main" id="section2">
+        <table style="border-top: none; border-left: none; border-right: none;">
+            <tr>
+                <th style="text-align: left; letter-spacing: 2px;">REVIEWS(58)</th>
+                <th style="text-align: right;"> ➕ </th>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="2">
+                    J***A ⭐⭐⭐⭐⭐<br>
+                    This scarve is so comfortable. such a nice scarve 10/10
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="2">
+                    M**20 ⭐⭐⭐⭐⭐<br>
+                    I love almost all the color. I highly recommanded this brand
+                </td>
+            </tr>
+        </table>
+      </div>
+      <hr style="border-color: rgba(107, 80, 6, 0.336);">
+
+      <div class="main" id="section3">
+        <h2 style="padding-top: 20px;">YOU MAY ALSO LIKE</h2>
+        <div class="container">
+            <div class="box">
+                <div class="imgBox">
+                    <img src="photo/11.webp" alt="">
+                </div>
+                <div class="detail">
+                    <p class="namascarf">Fleurs Et Papillions</p>
+                    <p class="harga">IDR 395.000,-</p>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="imgBox">
+                    <img src="photo/28.jpeg" alt="">
+                </div>
+                <div class="detail">
+                    <p class="namascarf">Horizon Not Stole</p>
+                    <p class="harga">IDR 395.000,-</p>
+                </div>
+            </div>
+    
+            <div class="box">
+                <div class="imgBox">
+                    <img src="photo/3.webp" alt="">
+                </div>
+                <div class="detail">
+                    <p class="namascarf">Balade Ecissaice Scarf 90</p>
+                    <p class="harga">IDR 350.000,-</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="imgBox">
+                    <img src="photo/16.webp" alt="">
+                </div>
+                <div class="detail">
+                    <p class="namascarf">Grand Theatre Nouveau Scarf 90</p>
+                    <p class="harga">IDR 395.000,-</p>
+                </div>
+            </div>
+      </div>
+      </div>
+
+      <hr size="2px" color="#383838" style="margin-top: 2%; margin-left: 3%; margin-right: 3%; color: #383838;">
+      <img src="photo/din.png" style="width: 15%; margin-left: 1%; margin-top: -4%; float: left; position: relative;">
+      <p style="font-family: serif; font-weight: bolder; font-size: larger; margin-top: 3.5%; margin-left: 23%;">
+          MY ACCOUNT &emsp;&emsp;&emsp;&emsp;&nbsp;
+          CUSTOMER CARE &emsp;&emsp;&emsp;&emsp;&nbsp;
+          SIGN UP AND SAVE
+      </p>
+      <p style="font-family: sans-serif;">
+          <ul style="list-style-type: none; position: absolute; margin-left: 0.5%; line-height: 300%; " >                
+              <li>
+                  <a class="social-media-icon" href="#" style="text-decoration: none; color: black; font-family: sans-serif;;"><span class="fab fa-instagram fa-lg"></span>&ensp;&nbsp; @din_hijab</a>
+              </li>
+              <li>
+                  <a class="social-media-icon" href="#" style="text-decoration: none; color: black; font-family: sans-serif;"><span class="fab fa-facebook fa-lg"></span>&ensp;&nbsp; DIN Hijab</a>
+              </li>
+              <li>
+                  <a class="social-media-icon" href="#" style="text-decoration: none; color: black; font-family: sans-serif;"><span class="fab fa-whatsapp fa-lg"></span>&ensp;&nbsp; 081274744774</a>
+              </li>
+              <li>
+                  <a href="#" style="text-decoration: none; color: black; font-family: sans-serif;">
+                      <i class="fab fa-tiktok fa-lg"></i>&ensp;&nbsp; DIN Hijab
+                  </a>
+              </li>
+              <li>
+                  <a class="social-media-icon" href="#" style="text-decoration: none; color: black; font-family: sans-serif;"><span class="fab fa-youtube fa-lg"></span>&ensp; DIN Hijab</a>
+              </li>
+          </ul>
+          <p style="font-family: sans-serif; position: absolute; margin-left: 22.7%; margin-top: 2.4%;">
+              <a href="signup.html"  style="text-decoration: none; color: black;"> Create Account &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;</a>
+              <a href="#" style="text-decoration: none; color: black;">How to Buy &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;&nbsp;</a>
+              <a href="#" style="text-decoration: none; color: black;">Subscribe to get special offers, free giveaway, and once-in-merchandise</a>
+          </p>
+          <p style="font-family: sans-serif; position: absolute; margin-left: 22.7%; margin-top: 5.8%;">
+              <a href="login.html"  style="text-decoration: none; color: black;"> Sign In &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</a>
+              <a href="#" style="text-decoration: none; color: black;">Shipping Information &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;&nbsp;</a>
+          </p>
+          <p style="font-family: sans-serif; position: absolute; margin-left: 22.7%; margin-top: 9.2%;">
+              <a href="#"  style="text-decoration: none; color: black;"> Confirm Payment &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</a>
+              <a href="Confirmationpage.html" style="text-decoration: none; color: black;">Payment Information&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;&nbsp;</a>
+              <a href="#"  style="text-decoration: none; color: black;"> Enter your email &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;</a>
+              <a href="#" style="text-decoration: none; color: black;"> Subscribe</a>
+          </p>
+          <hr size="2px" color="#383838" style="margin-top: 13%; margin-left: 58.5%; margin-right: 3%; color: #383838;">
+          <p style="font-family: sans-serif; position: absolute; margin-left: 39.1%; margin-top: 0.8%;">
+              <a href="#"  style="text-decoration: none; color: black;"> Return </a>
+          </p>
+          <p style="font-family: sans-serif; position: absolute; margin-left: 39.1%; margin-top: 4%;">
+              <a href="Contact.html"  style="text-decoration: none; color: black;"> Contact Us</a>
+          </p>            
+      </p>
+      <hr size="2px" color="#383838" style="margin-top: 9%; margin-left: 3%; margin-right: 3%; color: #383838;">
+      <center bgcolor="#ffffff">
+          <img src="photo/bri.png" style="width: 8%; margin-top: 2.5%;">&emsp;&emsp;
+          <img src="photo/bca.png" style="width: 6.5%;">&emsp;&emsp;
+          <img src="photo/mandiri.png" style="width: 6.5%;">&emsp;&emsp;
+          <img src="photo/bni.png" style="width: 6%;">&emsp;&emsp;
+          <img src="alfa.svg" style="width: 5.5%;">&emsp;&emsp;
+          <img src="photo/indo.png" style="width: 6%;">&emsp;&emsp;
+      </center>
+      <br><br>
+      <center style="font-size: small; font-family: sans-serif; font-weight: bolder;">
+          © 2022 DIN SCARVES
+      </center>
+      <br>
+</body>
+</html>

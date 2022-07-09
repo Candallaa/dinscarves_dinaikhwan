@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #D7CDC1;
+}
+h1{
+    font-size: 15pt;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    margin-top: 2%;
+}
+p{
+    color: black;
+    margin-top: 15px;
+    margin-left: 70px;
+    margin-right: 20px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+label{
+    margin-left: 60%;
+    font-family: 'PT Serif', serif;
+}
+input{
+    margin-left: 60%;
+    padding: 7px;
+    width: 350px;
+    font-family: 'PT Serif', serif;
+    background-color: #D7CDC1;
+}
+textarea{
+    margin-left: 60%;
+    height: 180px;
+    width: 370px; 
+    font-family: 'PT Serif', serif;
+    background-color: #D7CDC1;
+}
+button,input[type=submit],input[type=reset] {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    background-color: #000000;
+    color: white;
+    border: rgb(0, 0, 0) 2px solid;
+    border-radius: 5px;
+    padding: 6px ;
+    margin-top: 10px;
+    width: 80px;
+}
+button:hover, input[type=submit]:hover{
+    opacity:0.9;
+}

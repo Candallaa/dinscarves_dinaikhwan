@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    background-attachment: scroll;
+    background-size: cover;
+    background-color: #D7CDC1;
+}
+nav{
+    display: flex;
+    background-color: #D7CDC1;
+    justify-content: space-around;
+    padding: 20px 0;
+    color:black;
+    font-family: 'PT Serif', serif ;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1em;
+}
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+}
